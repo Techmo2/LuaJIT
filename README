@@ -1,9 +1,24 @@
-README for LuaJIT 2.1.0-beta3
+# VirtuJIT
+
+**VirtuJIT** is a fork of [**LuaJIT**](https://github.com/LuaJIT/LuaJIT) 2.1.0 beta 3 with a few changes and optimizations.
+
+## Features
+
+
+|       Feature  |Description                    |Status                       |
+|----------------|-------------------------------|-----------------------------|
+|Assumed locals           |Assume variables to be local to the current scope unless otherwise specified                       |**In Progress**
+|Multithreading           |Built in support for efficient, safe multithreading.                                               | Planned
+|Standard FFI Library     | A built in comprehensive standard library implemented with LuaJIT's FFI interface.                | Planned
+|Simple Native Interface  | A wrapper for LuaJIT's FFI interface to make the use of C and C++ libraries syntactically simple. | Planned
+
+```
+README for LuaJIT 2.1.0 beta 3
 -----------------------------
 
 LuaJIT is a Just-In-Time (JIT) compiler for the Lua programming language.
 
-Project Homepage: https://luajit.org/
+Project Homepage: [https://luajit.org/](https://luajit.org/)
 
 LuaJIT is Copyright (C) 2005-2022 Mike Pall.
 LuaJIT is free software, released under the MIT license.
@@ -12,5 +27,5 @@ See full Copyright Notice in the COPYRIGHT file or in luajit.h.
 Documentation for LuaJIT is available in HTML format.
 Please point your favorite browser to:
 
- doc/luajit.html
+ doc/luajit.html```
 
